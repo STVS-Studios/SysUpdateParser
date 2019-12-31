@@ -15,7 +15,7 @@ The recieved data contains the firmware version (for example 11.9.0-42) and the 
 
 ## Usage
 Run the "SysUpdateParser.jar" if you also want to parse those data and save it to your own database.
-Open it with with the following two arguments: "server" and "pass". The Server points to a server handling the data sent from the parser and it authenticates itself with a password.
+Open it with with the following two arguments: "server" and "pass". The Server should point to a server handling the data sent from the parser and it authenticates itself with a password.
 You can get data for the following platforms:
   - Nintendo Switch
   - Nintendo 3DS
