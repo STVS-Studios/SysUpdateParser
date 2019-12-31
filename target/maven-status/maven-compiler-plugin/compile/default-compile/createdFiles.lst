@@ -1,4 +1,4 @@
-SysUpdateParser\ThreeDS.class
-SysUpdateParser\Switch.class
-SysUpdateParser\WiiU.class
-SysUpdateParser\Main.class
+SysUpdateParser/Switch.class
+Main.class
+SysUpdateParser/ThreeDS.class
+SysUpdateParser/WiiU.class
