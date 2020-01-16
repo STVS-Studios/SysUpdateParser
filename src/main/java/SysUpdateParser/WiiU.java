@@ -16,7 +16,7 @@ public class WiiU {
     }
 
     public void getUpdates() throws IOException {
-        System.out.println("wiiu");
+        System.out.println("Looking for Wii U updates...");
         Document doc = Jsoup.connect(url).get();
         Elements test = doc.select("p").attr("class", "hlp-mb60");
         String newest = test.get(2).nextElementSibling().text();

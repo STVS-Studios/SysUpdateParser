@@ -16,7 +16,7 @@ public class ThreeDS {
     }
 
     public void getUpdates() throws IOException {
-        System.out.println("3ds");
+        System.out.println("Looking for 3DS updates...");
         Document doc = Jsoup.connect(url).get();
         Elements test = doc.select("p").attr("class", "ff_b");
         String newest = test.first().nextElementSibling().text();

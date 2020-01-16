@@ -15,7 +15,7 @@ public class Switch {
     }
 
     public void getUpdates() throws IOException {
-        System.out.println("switch");
+        System.out.println("Looking for Nintendo Switch updates...");
         Document doc = Jsoup.connect(url).get();
         Elements test = doc.select("div").attr("class", "c-area-border-bold--s u-max-w--small");
         String newest = test.get(11).children().text();
