@@ -24,4 +24,4 @@ You can get data for the following platforms:
   - Nintendo 3DS (Updates are mostly the same for all old3DS and new3DS devices)
   - Wii U (Should mostly be the same between all regions)
   - PS Vita
-  - PS 4
+  - PS4
