@@ -1,8 +1,6 @@
 # SysUpdateParser
 I've restructured the SysUpdate API to save the update data to a database. For new data, a parser was written, running daily to ensure recent updates will be made to said database.
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F51BI4D)
-
 ## Important things first
 This service connects to other servers, in order to gather information. These are:
 - Nintendo's japanese support pages
