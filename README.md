@@ -1,4 +1,6 @@
 # SysUpdateParser
+This was part of a sevice, which is END OF LIFE, as of now.
+
 I've restructured the SysUpdate API to save the update data to a database. For new data, a parser was written, running daily to ensure recent updates will be made to said database.
 
 ## Important things first
